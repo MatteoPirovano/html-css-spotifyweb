@@ -9,32 +9,44 @@
 }
 main {
   display: flex;
-  height: calc(100% - 90px);
+  height: calc(100% - 70px);
   background-color: grey;
   overflow-y: hidden;
 }
+/* ----------ASIDE---------- */
 aside {
-  width: 250px;
+  width: 150px;
+  position: relative;
   padding: 20px;
-  display:flex;
   flex-direction: column;
   background-color: #000000;
   overflow-y: hidden;
   color: #FFFFFF;
 }
-.fab.fa-spotify {
- font-size: 45px;
-  color: #FFFFFF;
-  text-decoration: none;
+.nav img {
+  width: 115px;
 }
+.nav {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.user_profile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+}
+/* ----------/ASIDE---------- */
 section {
-  width: calc(100% - 250px);
+  width: calc(100% - 150px);
   padding: 20px;
   background-color: orange;
   overflow-y: scroll;
 }
 footer {
   width: 100%;
-  height: 90px;
-  background-color: #000000;
+  height: 70px;
+  background-color: #222326;
 }
