@@ -15,9 +15,9 @@ main {
 }
 /* ----------ASIDE---------- */
 aside {
-  width: 150px;
+  width: 180px;
   position: relative;
-  padding: 20px;
+  padding: 15px;
   flex-direction: column;
   background-color: #000000;
   overflow-y: hidden;
@@ -27,39 +27,55 @@ aside {
   width: 115px;
 }
 .nav {
-  height: 100%;
   position: absolute;
+  height: 70%;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
 }
 .user_profile {
   position: absolute;
   bottom: 0;
   left: 0;
+  padding: 15px;
   background-color: #000000;
 }
 /* ----------/ASIDE---------- */
 /* ----------SECTION---------- */
 section {
-  width: calc(100% - 150px);
-  padding: 20px;
-  background-color: orange;
+  width: calc(100% - 180px);
+  padding: 70px 20px 20px 20px;
+  background-color: #181818;
+  color: #FFFFFF;
   overflow-y: scroll;
-  margin-top: 70px;
 }
 .CTA {
   height: 70px;
-  width: calc(100% - 150px);
+  width: calc(100% - 180px);
   position: fixed;
   top: 0;
   right: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 180px;
   padding-right: 35px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+}
+.pages {
+  height: 40px;
+}
+.pages ul {
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.pages ul li {
+  margin: 0 15px;
+  list-style: none;
+  text-transform: uppercase;
 }
 /* ----------/SECTION---------- */
 /* ----------FOOTER---------- */
