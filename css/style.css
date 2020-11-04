@@ -13,12 +13,19 @@ main {
   background-color: grey;
   overflow-y: hidden;
 }
-nav {
+aside {
   width: 250px;
   padding: 20px;
+  display:flex;
+  flex-direction: column;
   background-color: #000000;
   overflow-y: hidden;
   color: #FFFFFF;
+}
+.fab.fa-spotify {
+ font-size: 45px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 section {
   width: calc(100% - 250px);
