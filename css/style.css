@@ -20,7 +20,7 @@ aside {
   padding: 15px;
   flex-direction: column;
   background-color: #000000;
-  overflow-y: hidden;
+  overflow: hidden;
   color: #FFFFFF;
 }
 .nav img {
@@ -63,14 +63,13 @@ section {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
-.pages {
-  height: 40px;
-}
+
 .pages ul {
-  margin: auto;
+  height: 40px;
   padding: 10px 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pages ul li {
   margin: 0 15px;
