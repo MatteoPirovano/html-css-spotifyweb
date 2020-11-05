@@ -15,28 +15,38 @@
     <main>
       <!-- ASIDE -->
       <aside>
-        <div class="nav"> <!-- nav -->
-          <img src="img/spotify-logo.png" alt="Spotify logo">
-          <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
-          <a href="#"><i class="fas fa-search"></i><span>Cerca</span></a>
-          <a href="#"><i class="fas fa-book-open"></i><span>La tua libreria</span></a>
-        <h4>playlist</h4>
-        <a href="#"><i class="fas fa-plus-square"></i><span>Crea playlist</span></a>
-        <p>Nome Playlist</p>
-        <p>Nome Playlist</p>
-        <p>Nome Playlist</p>
-        <p>Nome Playlist</p>
-        <p>Nome Playlist</p>
-      </div>
-      <div class="user_profile"> <!--user_profile-->
-        <div class="user_profile_top">
-          <a href="#"><i class="fas fa-arrow-circle-down"></i><span>Installa app</span></a>
+        <div class="top">
+          <div class="top_logo">
+            <img src="img/spotify-logo.png" alt="Spotify logo">
+          </div>
+          <div class="top_menu">
+            <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#"><i class="fas fa-search"></i><span>Cerca</span></a>
+            <a href="#"><i class="fas fa-book-open"></i><span>La tua libreria</span></a>
+          </div>
+          <div class="top_playlist">
+            <h4>playlist</h4>
+            <a href="#"><i class="fas fa-plus-square"></i><span>Crea playlist</span></a>
+            <ul id="playlists">
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+              </ul>
+          </div>
         </div>
-        <div class="user_profile_top">
-          <a href="#"><i class="fas fa-user"></i></a>
-          <span>Matteo Pirovano</span>
+        <div class="bottom">
+          <div class="user_profile"> <!--user_profile-->
+            <div class="user_profile_top">
+              <a href="#"><i class="fas fa-arrow-circle-down"></i><span>Installa app</span></a>
+            </div>
+            <div class="user_profile_top">
+              <a href="#"><i class="fas fa-user"></i></a>
+              <span>Matteo Pirovano</span>
+            </div>
+          </div>
         </div>
-      </div>
       </aside>
       <!-- /ASIDE -->
       <!-- SECTION -->
@@ -54,6 +64,36 @@
             <li>scopri</li>
           </ul>
         </div>
+        <div class="played">
+          <h2>Recently played</h2>
+          <div class="albums">
+            <figure class="cover">
+              <img src="img/MARRA.jpg" alt="cover-album">
+              <figcaption>Marracash</figcaption>
+            </figure>
+            <figure class="cover">
+              <img src="img/machine.jpg" alt="cover-album">
+              <figcaption>Machine Gun Kelly</figcaption>
+            </figure>
+            <figure class="cover">
+              <img src="img/mouse-music.jpg" alt="cover-album">
+              <figcaption>Two Fingerz</figcaption>
+            </figure>
+            <figure class="cover">
+              <img src="img/postmalone.jpg" alt="cover-album">
+              <figcaption>Post Malone</figcaption>
+            </figure>
+            <figure class="cover">
+              <img src="img/system.jpg" alt="cover-album">
+              <figcaption>System of a Down</figcaption>
+            </figure>
+            <figure class="cover">
+              <img src="img/rap-comp.jpg" alt="cover-album">
+              <figcaption>90' rap compilaiton</figcaption>
+            </figure>
+          </div>
+        </div>
+        
       </section>
       <!-- /SECTION -->
     </main>
