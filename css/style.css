@@ -90,12 +90,11 @@ section {
   list-style: none;
   text-transform: uppercase;
 }
-.albums {
+.albums, #creation, #artists{
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-
 .cover img {
   height: 170px;
   width: 170px;
@@ -103,6 +102,12 @@ section {
 }
 figcaption {
   text-align: center;
+}
+.cover-round {
+  height: 170px;
+  width: 170px;
+  padding: 10px;
+  border-radius: 50%;
 }
 /* ----------/SECTION---------- */
 /* ----------FOOTER---------- */
