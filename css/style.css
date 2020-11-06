@@ -26,6 +26,9 @@ aside {
   background-color:  #000000;
   overflow-y: hidden;
   min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 aside a {
   display: inline-block;
@@ -55,8 +58,13 @@ aside a {
   line-height: 30px;
 }
 .bottom {
-  height: 70px;
   width: 100%;
+}
+.user_profile_top, .user_profile_bottom {
+  padding: 5px 0;
+}
+.user_profile_top {
+  border-bottom: 1px solid #FFFFFF;
 }
 /* ----------/ASIDE---------- */
 /* ----------SECTION---------- */
