@@ -96,22 +96,26 @@ section {
 }
 .albums, #creation, #artists{
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+}
+.cover {
+  width: calc(100% / 6);
+  padding: 10px;
 }
 .cover img {
-  height: 170px;
-  width: 170px;
+  width: 100%;
   padding: 10px;
+}
+.cover_round {
+  width: calc(100% / 6);
+  padding: 10px;
+}
+.cover_round img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50%;
 }
 figcaption {
   text-align: center;
-}
-.cover_round img {
-  height: 170px;
-  width: 170px;
-  padding: 10px;
-  border-radius: 50%;
 }
 /* ----------/SECTION---------- */
 /* ----------FOOTER---------- */
