@@ -180,11 +180,20 @@ footer {
 }
 .time {
   height: 45%;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-    align-items: center;
+  align-items: center; */
 }
-
+.bar_time {
+  position: relative;
+  display: inline-block;
+}
+.bar_time::after {
+  content: "";
+  width: 80%;
+  height: 4px;
+  background-color: blue;
+}
 .right {
   height: 100%;
   width: 180px;
