@@ -103,7 +103,7 @@ section {
 figcaption {
   text-align: center;
 }
-.cover-round {
+.cover-round img {
   height: 170px;
   width: 170px;
   padding: 10px;
