@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -20,7 +24,6 @@ aside {
   padding: 15px;
   height: 100%;
   background-color:  #000000;
-  color: #FFFFFF;
   overflow-y: hidden;
   min-height: 480px;
 }
@@ -61,7 +64,6 @@ section {
   width: calc(100% - 180px);
   padding: 90px 20px 20px 20px;
   background-color: #181818;
-  color: #FFFFFF;
   overflow-y: scroll;
 }
 .CTA {
@@ -89,6 +91,8 @@ section {
   margin: 0 15px;
   list-style: none;
   text-transform: uppercase;
+  font-weight: 700;
+  color: #797B80;
 }
 .albums, #creation, #artists{
   display: flex;
@@ -103,7 +107,7 @@ section {
 figcaption {
   text-align: center;
 }
-.cover-round img {
+.cover_round img {
   height: 170px;
   width: 170px;
   padding: 10px;
@@ -112,8 +116,73 @@ figcaption {
 /* ----------/SECTION---------- */
 /* ----------FOOTER---------- */
 footer {
-  width: 100%;
   height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   background-color: #222326;
+}
+.left {
+  height: 100%;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left img {
+  width: 17%;
+}
+.name {
+  width: 45%;
+}
+.saves {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.song {
+  height: 100%;
+  width: 40%;
+}
+.saves i {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.control_btn {
+  height: 55%;
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.control_btn i {
+  display: inline-block;
+  font-size: 15px;
+}
+.control_btn i:nth-of-type(3){
+  display: inline-block;
+  font-size: 30px;
+}
+.time {
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+  height: 100%;
+  width: 180px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.right i {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
 }
 /* ----------/FOOTER---------- */
