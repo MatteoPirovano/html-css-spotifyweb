@@ -180,9 +180,9 @@ footer {
 }
 .time {
   height: 45%;
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
 }
 .bar_time {
   position: relative;
@@ -192,7 +192,7 @@ footer {
   content: "";
   width: 80%;
   height: 4px;
-  background-color: blue;
+  background-color: gray;
 }
 .right {
   height: 100%;
