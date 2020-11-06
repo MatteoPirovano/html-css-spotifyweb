@@ -6,6 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  font-weight: bold;
 }
 .wrapper {
   width: 100%;
@@ -185,14 +186,25 @@ footer {
   align-items: center;
 }
 .bar_time {
-  position: relative;
-  display: inline-block;
+position: relative;
+width: 100%; margin: 0 20px; }
+
+.time:hover .light_grey {
+  background: green;
 }
-.bar_time::after {
-  content: "";
-  width: 80%;
+.grey {
+  width: 100%;
   height: 4px;
-  background-color: gray;
+  border-radius: 4px;
+  background: #777;
+}
+.light_grey {
+  width: 40%;
+  height: 4px;
+  border-radius: 4px;
+  background: #bbb;
+  position: absolute;
+  top: 0; left: 0;
 }
 .right {
   height: 100%;
