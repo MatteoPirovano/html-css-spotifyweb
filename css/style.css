@@ -6,6 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  font-size: 14px;
   font-weight: bold;
 }
 .wrapper {
@@ -37,19 +38,29 @@ aside a {
   text-decoration: none;
   color: #FFFFFF;
 }
+aside i {
+  font-size: 20px;
+  padding-right: 10px;
+}
 .top {
   display: flex;
    flex-direction: column;
    width: 100%;
    height: calc(100% - 70px);
 }
+.top_menu a {
+  padding: 5px 0 ;
+}
 .top_logo img {
   width: 115px;
 }
 .top_playlist, .top_menu {
-  padding: 20px 0;
+  padding: 10px 0;
 }
-
+.top_playlist h3 {
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
 .top_playlist ul {
   padding: 10px 0;
   list-style: none;
@@ -58,14 +69,29 @@ aside a {
   height: 30px;
   line-height: 30px;
 }
+#playlists a , #new_playlist {
+  color: #797B80;
+}
+#new_playlist i {
+  font-size: 35px;
+}
 .bottom {
   width: 100%;
+}
+.bottom a{
+  color: #797B80;
 }
 .user_profile_top, .user_profile_bottom {
   padding: 5px 0;
 }
 .user_profile_top {
   border-bottom: 1px solid #FFFFFF;
+}
+.user_profile_top i {
+  font-size: 10px;
+}
+.user_profile_bottom span{
+  color: #FFFFFF;
 }
 /* ----------/ASIDE---------- */
 /* ----------SECTION---------- */
@@ -86,8 +112,14 @@ section {
   align-items: center;
   margin-left: 180px;
   padding-right: 35px;
-  background-color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
   color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.CTA span {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 30px;
 }
 
 .pages ul {
