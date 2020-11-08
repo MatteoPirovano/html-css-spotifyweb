@@ -172,6 +172,14 @@ section {
   color: #797B80;
   cursor: pointer;
 }
+.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 55%;
+  background-color: lightgreen;
+  margin-left: 22.5%;
+}
 .albums, #creation, #artists{
   display: flex;
   flex-wrap: wrap;
@@ -273,6 +281,7 @@ footer {
 .song {
   height: 100%;
   width: 40%;
+  padding: 0 15px;
 }
 .saves i {
   display: inline-block;
@@ -370,7 +379,7 @@ margin: 0 20px;
   position: absolute;
   top: 0; left: 0;
 }
-.i {
+.volume_control {
   display: flex;
 }
 /* ----------/FOOTER---------- */
@@ -457,5 +466,7 @@ margin: 0 20px;
  .control_btn i {
    padding: 0 5px;
  }
-
+.bar_volume {
+  width: 75%;
+}
 }
