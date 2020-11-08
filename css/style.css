@@ -32,6 +32,15 @@ main {
   color: #FFFFFF;
   text-decoration: underline;
 }
+.time:hover .light_grey,
+.right:hover .light_grey{
+  background: green;
+}
+.time:hover  .bar_time_btn,
+.right:hover .bar_time_btn {
+display: block;
+}
+
 /* ----------/HOVER---------- */
 /* ----------ASIDE---------- */
 aside {
@@ -244,30 +253,40 @@ footer {
 }
 .bar_time {
 position: relative;
-width: 100%; margin: 0 20px; }
-
-.time:hover .light_grey {
-  background: green;
+width: 100%;
+margin: 0 20px;
 }
-.grey {
-  width: 100%;
+.bar_time .grey {
   height: 4px;
+  width: 100%;
   border-radius: 4px;
   background: #777;
 }
-.light_grey {
-  width: 40%;
+.bar_time .light_grey {
   height: 4px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   border-radius: 4px;
   background: #bbb;
   position: absolute;
   top: 0; left: 0;
 }
+ .bar_time_btn  {
+  display: none;
+}
+.bar_time_btn {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
 .right {
   height: 100%;
   width: 180px;
+  padding-right: 10px;
   display:flex;
-  justify-content: flex-start;
   align-items: center;
 }
 .right i {
@@ -275,5 +294,26 @@ width: 100%; margin: 0 20px; }
   padding: 0 8px;
   font-size: 13px;
   cursor: pointer;
+}
+.bar_volume {
+  position: relative;
+  width: 100%;
+}
+.bar_volume .grey {
+  height: 4px;
+  width: 100%;
+  border-radius: 4px;
+  background: #777;
+}
+.bar_volume .light_grey {
+  height: 4px;
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 4px;
+  background: #bbb;
+  position: absolute;
+  top: 0; left: 0;
 }
 /* ----------/FOOTER---------- */
