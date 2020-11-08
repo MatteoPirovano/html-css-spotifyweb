@@ -19,6 +19,20 @@ main {
   background-color: grey;
   overflow-y: hidden;
 }
+/* ----------HOVER---------- */
+.pages ul li:hover ,
+ .top_menu a:hover ,
+ #new_playlist:hover,
+ #playlists a:hover ,
+ .user_profile_top a:hover ,
+ .saves i:hover {
+  color: #FFFFFF;
+}
+.left span:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+/* ----------/HOVER---------- */
 /* ----------ASIDE---------- */
 aside {
   width: 180px;
@@ -36,10 +50,9 @@ aside a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
-  color: #FFFFFF;
 }
 aside i {
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 10px;
 }
 .top {
@@ -50,6 +63,7 @@ aside i {
 }
 .top_menu a {
   padding: 5px 0 ;
+  color: #797B80;
 }
 .top_logo img {
   width: 115px;
@@ -73,7 +87,7 @@ aside i {
   color: #797B80;
 }
 #new_playlist i {
-  font-size: 35px;
+  font-size: 30px;
 }
 .bottom {
   width: 100%;
@@ -94,6 +108,7 @@ aside i {
   color: #FFFFFF;
 }
 /* ----------/ASIDE---------- */
+
 /* ----------SECTION---------- */
 section {
   width: calc(100% - 180px);
@@ -121,7 +136,10 @@ section {
   border: 1px solid white;
   border-radius: 30px;
 }
-
+.CTA span:hover {
+  padding: 17px;
+  font-size: 1.3
+}
 .pages ul {
   height: 40px;
   display: flex;
@@ -134,31 +152,33 @@ section {
   text-transform: uppercase;
   font-weight: 700;
   color: #797B80;
+  cursor: pointer;
 }
 .albums, #creation, #artists{
   display: flex;
 }
 .cover {
   width: calc(100% / 6);
-  padding: 10px;
+  padding: 15px 15px 0 0 ;
 }
 .cover img {
   width: 100%;
-  padding: 10px;
-}
-.cover_round {
-  width: calc(100% / 6);
-  padding: 10px;
 }
 .cover_round img {
   width: 100%;
-  padding: 10px;
   border-radius: 50%;
 }
 figcaption {
   text-align: center;
 }
+h2 {
+  padding: 15px 0 10px 0;
+}
+h5 {
+  color: #797B80;
+}
 /* ----------/SECTION---------- */
+
 /* ----------FOOTER---------- */
 footer {
   height: 70px;
@@ -177,6 +197,9 @@ footer {
 .left img {
   width: 17%;
 }
+.left span {
+  color: #797B80;
+}
 .name {
   width: 45%;
 }
@@ -193,6 +216,7 @@ footer {
   display: inline-block;
   padding: 0 5px;
   font-size: 13px;
+  color: #797B80;
 }
 .control_btn {
   height: 55%;
@@ -206,6 +230,7 @@ footer {
 .control_btn i {
   display: inline-block;
   font-size: 15px;
+  cursor: pointer;
 }
 .control_btn i:nth-of-type(3){
   display: inline-block;
@@ -247,7 +272,8 @@ width: 100%; margin: 0 20px; }
 }
 .right i {
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 8px;
   font-size: 13px;
+  cursor: pointer;
 }
 /* ----------/FOOTER---------- */
